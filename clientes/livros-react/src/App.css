@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Sedan:ital@0;1&display=swap');
+
+* {
+  font-family: Sedan;
+  overflow: auto;
+}
+
+.menu{
+  background-color: rgb(40, 40, 40);
+  height: 4rem;
+  justify-content: start;
+}
+
+.item-nav{
+  color: rgb(200, 200, 200);
+  font-size: 1.25rem;
+  padding-left: 0.5rem;
+}
+
+.item-nav:hover{
+  color: white;
+  font-weight: bold;
+}
+
+.item-nav:active{
+  color: crimson;
+  font-weight: bolder;
+}
+
+.cabecalho{
+  background-color: rgb(40, 40, 40);
+  font-size: 1.25rem;
+  height: 3rem;
+  color: white;
+}
+
+.titulos{
+  padding-left: 0.5rem;
+}
+
+.botao{
+  background-color: crimson;
+  color: white;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  padding	: 5px;
+  margin-top: 5px;
+}
+
+.botao:hover{
+  background-color: darkred;
+}
+
+.botao:active{
+  background-color: rgb(85, 3, 3);
+}
+
+.item{
+  height: 6rem;
+}
+
+td{
+  color: black;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+
